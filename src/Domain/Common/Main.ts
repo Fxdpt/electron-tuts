@@ -55,7 +55,6 @@ export default class Main
      */
     private static onReady(): void
     {
-        console.log(Main.mainViewPath)
         Main.mainWindow = new BrowserWindow()
         Main.createMenuFromTemplate()
         Menu.setApplicationMenu(Main.menu)
