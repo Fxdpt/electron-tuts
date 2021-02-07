@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron';
+import {app} from 'electron';
 import Main from './Domain/Common/Main';
 
 Main.run(app);

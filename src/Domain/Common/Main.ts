@@ -29,7 +29,7 @@ export default class Main
     /**
      * Path of the main view of the app.
      */
-    static mainViewPath: string = __dirname + '/../../Views/index.html'
+    static mainViewPath: string = __dirname + 'index.html'
 
     /**
      * Turn off the application on Linux/Windows OS.
@@ -55,6 +55,7 @@ export default class Main
      */
     private static onReady(): void
     {
+        console.log(Main.mainViewPath)
         Main.mainWindow = new BrowserWindow()
         Main.createMenuFromTemplate()
         Menu.setApplicationMenu(Main.menu)
