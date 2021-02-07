@@ -17,7 +17,7 @@ This command will compile your tsx code into a `build` folder, copy the views an
 
 As a beginner in NodeJS and NPM, Maybe you will have some troubleshoot wille running the `npm run start` command.
 
-### error that can be encoutered ###
+### error that can be encountered ###
 
 `tsc: command not found`
 
