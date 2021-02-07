@@ -29,7 +29,7 @@ export default class Main
     /**
      * Path of the main view of the app.
      */
-    static mainViewPath: string = __dirname + 'index.html'
+    static mainViewPath: string = __dirname + '/index.html'
 
     /**
      * Turn off the application on Linux/Windows OS.
